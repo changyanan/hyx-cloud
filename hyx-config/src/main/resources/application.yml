@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: master
+  application:
+    name: hyx-config-server
+  info:
+
+
+server:
+  port: 7001
+
+
