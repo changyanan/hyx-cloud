@@ -26,7 +26,6 @@
         <module>hyx-provider</module>
         <module>hyx-provider-api</module>
         <module>hyx-zipkin</module>
-        <module>hyx-config-repo</module>
     </modules>
 
 
