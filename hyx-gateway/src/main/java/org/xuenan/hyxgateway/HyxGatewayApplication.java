@@ -6,9 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class HyxGatewayApplication {
 
-	public static void main(String[] args) {
-		System.out.println();
-		SpringApplication.run(HyxGatewayApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(HyxGatewayApplication.class, args);
+    }
 
 }
