@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.globalegrow.scg</groupId>
+		<artifactId>scg-parent</artifactId>
+		<version>1.0.4.RELEASE</version>
+	</parent>
+	<artifactId>scg-demo</artifactId>
+	<name>scg-demo</name>
+	<packaging>pom</packaging>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+<!--   		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency> -->
+	</dependencies>
+ 
+	<modules>
+		<module>demo-api</module>
+		<module>demo-provider</module>
+		<module>demo-consumer</module>
+    	<module>demo-serialize</module>
+    	<module>demo-cron</module>
+    	<module>demo-jpa</module>
+    	<module>demo-execl</module>
+    	<module>demo-retrofit</module>
+    	<module>demo-validated</module>
+    	<module>demo-jest</module>
+    	<module>demo-code</module>
+    	<module>demo-tess4j</module>
+    	<module>demo-guava</module>
+    	<module>demo-javassist</module>
+    	<module>demo-cos</module>
+    	<module>demo-admin</module>
+    	<module>demo-dubbo</module>
+    	<module>demo-jsonPath</module>
+    	<module>demo-ejob</module>
+    	<module>demo-redis</module>
+    	<module>demo-rabbitmq</module>
+    	<module>demo-async-rabbitmq</module>
+	</modules>
+</project>

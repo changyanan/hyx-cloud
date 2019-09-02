@@ -1,0 +1,136 @@
+server:
+  port: 0
+globalegrow:
+  dubbox:
+    application:
+      name: demo-provider
+      owner: laolei
+      
+    base-package: com.laolei
+          
+    protocols:
+#      - name: dubbo
+#        serialization: nativejava
+#      - name: dubbo
+#        serialization: hessian2
+#        server: netty
+#      - name: dubbo
+#        serialization: fastjson
+#      - name: dubbo
+#        serialization: jackson
+#      - name: dubbo
+#        serialization: dubbo
+#      - name: dubbo
+#        serialization: kryo
+#        optimizer: com.laolei.dubbo.test.SerializationOptimizerImpl
+#        server: netty
+        
+      - name: dubbo
+        serialization: fst
+        optimizer: com.laolei.dubbo.test.SerializationOptimizerImpl
+        server: netty
+        
+      - name: rmi
+      
+#      - name: rest
+#        keep-alive: true
+#        server: netty
+#        iothreads: 5
+#        threads: 100
+#        contextpath: /api
+#      - name: rest
+#        server: sunhttp
+#        contextpath: /api
+#      - name: rest
+#        server: servlet
+#        contextpath: /api
+#      - name: rest
+#        server: tomcat
+#        accepts: 500
+#        threads: 500
+#        contextpath: /api
+#        extension: com.alibaba.dubbo.rpc.protocol.rest.support.LoggingFilter
+       
+#      - name: http
+#        port: 60030
+#      
+#      - name: hessian
+#        port: 60040
+      
+#      - name: webservice
+#        port: 60050
+#        accepts: 
+#        accesslog: 
+#        buffer: 
+#        charset: 
+#        client: 
+#        codec: 
+#        contextpath: 
+#        default: 
+#        dispatcher: 
+#        exchanger: 
+#        extension: 
+#        heartbeat: 
+#        host: 
+#        iothreads: 
+#        keep-alive: 
+#        networker: 
+#        optimizer: 
+#        payload: 
+#        prompt: 
+#        queues: 
+#        register: 
+#        serialization: 
+#        server: 
+#        status: 
+#        telnet: 
+#        threadpool: 
+#        threads: 
+#        transporter: 
+#        parameters:
+      
+#    services:
+#      - interface-class: 
+#        interface: 
+#        exported: 
+#        generic: 
+#        methods:
+#          - 
+#        path: 
+#        ref: 
+#        unexported: 
+#        exported-urls:
+#          - 
+#        provider:
+#          accepts: 
+#          actives: 
+#          async: 
+#          buffer: 
+#          charset: 
+#          client: 
+#          cluster: 
+#          codec: 
+#          connections: 
+#          contextpath: 
+#          default: 
+#          dispatcher: 
+#          exchanger: 
+#          host: 
+#          iothreads: 
+#          loadbalance: 
+#          networker: 
+#          payload: 
+#          port: 
+#          prompt: 
+#          queues: 
+#          retries: 
+#          serialization: 
+#          server: 
+#          status: 
+#          telnet: 
+#          threadpool: 
+#          threads: 
+#          timeout: 
+#          transporter: 
+#          wait: 
+  

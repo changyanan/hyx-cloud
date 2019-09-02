@@ -1,0 +1,18 @@
+
+globalegrow:
+  api:
+    swagger-config:
+      globalegrow-GM:
+        group-name:  计算打卡详情api
+        title: 计算打卡详情
+        description:  计算打卡详情
+        path-regex: /.*
+        path-mapping: /
+        terms-of-service-url: http://www.globalegrow.com
+        version: v3.1.4
+#        license: gb2
+#        license-url: gb2
+#        contact:
+#          email: globalegrow@globalegrow.com
+#          name: globalegrow
+#          url: http://www.globalegrow.com

@@ -1,0 +1,34 @@
+globalegrow:
+  dubbox:
+    registry:
+      protocol: zookeeper   # 注册中心支持的协议 包括 dubbo,multicast,zookeeper,redis 默认是dubbo
+      address: 127.0.0.1
+      port: 2181
+      client: curator  # zookeeper 支持客户端包括 curator和zkclient,如果不配置，默认使用zkclient 
+      register: true
+#      session: -1
+#      check: 
+#      cluster: 
+#      default: 
+#      dynamic: 
+#      file: 
+#      group:
+#      username:  
+#      password: 
+#      server: 
+#      subscribe: 
+#      timeout: 
+#      transporter: 
+#      version: 
+#      parameters:
+      
+#    monitor:
+#      protocol:
+#      address:  
+#      username: 
+#      password: 
+#      version: 
+#      group: 
+#      default: true
+#      parameters:
+#        test: test 

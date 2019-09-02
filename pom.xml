@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>hyx-common</module>
+        <module>hyx-config</module>
         <module>hyx-discovery</module>
         <module>hyx-eureka</module>
         <module>hyx-gateway</module>
@@ -18,6 +19,7 @@
         <module>hyx-provider</module>
         <module>hyx-provider-api</module>
         <module>hyx-zipkin</module>
+        <module>demo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

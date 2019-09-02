@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.globalegrow.scg.rabbitmq.autoconfigure.RabbitBatchAutoConfiguration,\
+com.globalegrow.scg.rabbitmq.autoconfigure.BeanRegisterUtlis

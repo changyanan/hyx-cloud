@@ -1,0 +1,11 @@
+server:
+  port: 0
+
+logging:
+  level:
+    org.apache.zookeeper: warn
+spring:
+  profiles:
+    include:
+      - registry
+      - consumer

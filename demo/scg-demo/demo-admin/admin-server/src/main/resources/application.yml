@@ -1,0 +1,11 @@
+server:
+  port: 9000
+  
+spring:  
+  application:  
+    name: monitor  
+  boot:  
+    admin:  
+      context-path: /admin
+      hazelcast:
+        enabled: true

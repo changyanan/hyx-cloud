@@ -1,0 +1,19 @@
+server:
+  port: 9000
+  
+spring:  
+  application:  
+    name: ejob
+    
+    
+globalegrow:
+  ejob:
+    packages: com.globalegrow.ejob.demo.job
+    serverport: 10009
+    zkhost: 10.40.6.100:2181,10.40.6.101:2181,10.40.6.102:2181
+    core-pool-size: 10
+    keep-alive-time: 1000
+    max-pool-size: 100
+    clustername: 
+    zkrootnode: 
+ 

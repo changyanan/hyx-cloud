@@ -1,0 +1,24 @@
+spring:
+  redis:
+    
+#    url: redis://10.60.46.90:6380/0
+    ssl: false  
+    password: 6e1KWyC29w
+    timeout: 30000
+    cluster:
+      max-redirects: 10
+      nodes:
+        - 10.40.6.108:6379
+        - 10.40.6.110:6379
+        - 10.40.6.108:6381
+        - 10.40.6.110:6380
+        - 10.40.6.108:6382
+        - 10.40.6.110:6381
+
+    lettuce:
+      shutdown-timeout: 100ms
+      pool:
+        max-active: 800
+        max-idle: 800
+        max-wait: -1
+        min-idle: 0

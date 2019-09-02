@@ -1,0 +1,17 @@
+logging:
+  level:
+    root: info
+    org.springframework: warn
+    com.globalegrow: info
+server:
+  port: 80
+  
+spring:
+  profiles:
+    active: api
+    
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: false
+    date-format: yyyy-MM-dd HH:mm:ss
+

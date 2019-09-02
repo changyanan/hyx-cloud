@@ -1,0 +1,52 @@
+spring:
+  datasource:
+    platform: all
+    continue-on-error: false
+    url: jdbc:mysql://127.0.0.1:3306/openmysql?useSSL=true
+    username: root
+    password: root123
+    generate-unique-name: false
+    initialize: true
+    jmx-enabled: false
+    name: testdb
+    separator: ;
+    sql-script-encoding: UTF-8
+#    driver-class-name: 
+#    jndi-name: 
+#    type: 
+#    schema-password: 
+#    schema-username: 
+#    schema:
+#      - 
+#    data-password: 
+#    data-username:
+#    data:
+#      - 
+  data:
+    jpa:
+      repositories:
+        enabled: true
+#    elasticsearch:
+#      cluster-name: 
+#      cluster-nodes: 
+#      repositories:
+#        enabled: true
+#      properties:
+#        
+  jpa:
+    database:   mysql
+    database-platform: 
+    generate-ddl: true
+    open-in-view: true
+    properties:
+      'hibernate.use_sql_comments': true
+      'hibernate.format_sql': true
+      'hibernate.cache.use_query_cache': false
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+#      naming:
+#        implicit-strategy: 
+#        physical-strategy: 
+#        strategy: 
+      use-new-id-generator-mappings: true

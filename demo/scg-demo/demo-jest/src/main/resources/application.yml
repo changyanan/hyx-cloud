@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active:
+      - api
+      
+  elasticsearch:
+    jest:
+      uris:
+        - http://localhost:9200
+        - http://localhost:9201
+        - http://localhost:9202
+      username: 
+      password: 
+      connection-timeout: 3000
+      multi-threaded: true
+      read-timeout: 3000
+#      proxy:
+#        host: 
+#        port: 

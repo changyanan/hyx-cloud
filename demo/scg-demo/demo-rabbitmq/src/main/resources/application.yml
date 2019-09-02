@@ -1,0 +1,43 @@
+spring:
+  rabbitmq:
+    host: 10.40.6.89
+    port: 5672
+    username: iss_test
+    password: iss_test
+    virtual-host: ISS
+    cache:
+      channel:
+        checkout-timeout: 0 
+        size: 20
+      connection:
+        mode: channel
+    listener:
+      simple:
+        auto-startup: true
+        concurrency: 10
+        acknowledge-mode: auto
+        max-concurrency: 100
+        default-requeue-rejected: true
+        
+#    batch:
+#      iss: 
+#        host: 10.40.6.89
+#        port: 5672
+#        username: iss_test
+#        password: iss_test
+#        virtual-host: ISS
+#        cache:
+#          channel:
+#            checkout-timeout: 0 
+#            size: 20
+#          connection:
+#            mode: channel
+#        listener:
+#          simple:
+#            auto-startup: true
+#            concurrency: 10
+#            acknowledge-mode: auto
+#            max-concurrency: 100
+#            default-requeue-rejected: true
+        
+      

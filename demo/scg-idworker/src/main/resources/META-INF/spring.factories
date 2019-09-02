@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.globalegrow.redis.code.IdWorkerServerIdAutoConfiguration
+//,\
+//com.globalegrow.redis.listener.RedisListenerAutoConfiguration

@@ -1,0 +1,12 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+ObserverAutoConfiguration,\
+AsyncUtils,\
+WebMvcConfig,\
+LoggerInterceptor,\
+LoggingAutoConfiguration,\
+GlobalApiExceptionHandler,\
+GlobalegrowConverterConfig,\
+TaskAutoConfiguration,\
+RateLimiterConfig,\
+ServletWebServerFactoryConfiguration,\
+ShutdownMonitoringImpl

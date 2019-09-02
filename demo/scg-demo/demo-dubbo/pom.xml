@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.globalegrow.scg</groupId>
+		<artifactId>scg-demo</artifactId>
+		<version>1.0.4.RELEASE</version>
+		<relativePath/>
+	</parent>
+	<artifactId>demo-dubbo</artifactId>
+	<packaging>pom</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.gitee.reger</groupId>
+			<artifactId>spring-boot-starter-dubbo</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.globalegrow.scg</groupId>
+			<artifactId>scg-core</artifactId>
+		</dependency>
+	</dependencies>
+	<modules>
+		<module>dubbo-api</module>
+		<module>dubbo-provider</module>
+		<module>dubbo-consumer</module>
+	</modules>
+</project>

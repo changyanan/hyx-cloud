@@ -1,0 +1,32 @@
+server:
+  port: 0
+  
+spring:
+  application:
+    admin:
+      enabled: true
+    name: test-admin-client
+  boot:
+    admin:
+      url:
+        - http://127.0.0.1:9000/
+#      api-path: 
+      auto-deregistration: true
+      auto-registration: true
+      connect-timeout: 5000
+      client:
+        enabled: true
+        prefer-ip: true
+        
+        
+management:  
+  port: 0  
+  security:  
+    enabled: false # spring-boot 1.5.2之后严格执行安全策略，所以需要配置这个为false  
+    
+info: #定义各种额外的详情给服务端显示  
+  app:  
+    name: "@project.name@" #从pom.xml中获取  
+    description: "@project.description@"  
+    version: "@project.version@"  
+    spring-boot-version: "@project.parent.version@"  
