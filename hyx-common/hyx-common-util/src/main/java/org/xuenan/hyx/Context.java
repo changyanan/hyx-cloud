@@ -3,7 +3,10 @@ package org.xuenan.hyx;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.StreamUtils;
+import org.xuenan.hyx.code.Sequence;
 import org.xuenan.hyx.consts.Const;
+import org.xuenan.hyx.exception.GlobalException;
+import org.xuenan.hyx.exception.GlobalExceptionStatus;
 import org.xuenan.hyx.model.PlatformEnum;
 import org.xuenan.hyx.model.SysUser;
 

@@ -1,6 +1,6 @@
 package org.xuenan.hyx.init;
 
-import com.globalegrow.core.model.SysUser;
+import org.xuenan.hyx.model.SysUser;
 
 /**
  * 系统获取当前登录用户的接口

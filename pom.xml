@@ -8,24 +8,12 @@
     <artifactId>hyx-cloud</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
     <modules>
         <module>hyx-common</module>
-        <module>hyx-config</module>
-        <module>hyx-discovery</module>
-        <module>hyx-eureka</module>
-        <module>hyx-gateway</module>
-        <module>hyx-generator</module>
-        <module>hyx-monitor</module>
-        <module>hyx-provider</module>
-        <module>hyx-provider-api</module>
-        <module>hyx-zipkin</module>
-        <module>demo</module>
     </modules>
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.7.RELEASE</version>
-        <relativePath/>
-    </parent>
+
 
 </project>
