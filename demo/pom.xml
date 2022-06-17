@@ -30,7 +30,7 @@
 		<kryo.version>4.0.0</kryo.version>
 		<kryo-serializers.version>0.41</kryo-serializers.version>
 		<fst.version>2.56</fst.version>
-		<fastjson.version>1.2.31</fastjson.version>
+		<fastjson.version>1.2.83</fastjson.version>
 		<protostuff.version>1.0.12</protostuff.version>
 		<jpa.version>1.0</jpa.version>
 		<spring-boot-starter-dubbo.version>1.0.9</spring-boot-starter-dubbo.version>
